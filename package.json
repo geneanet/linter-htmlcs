@@ -1,10 +1,14 @@
 {
   "name": "linter-htmlcs",
   "main": "./lib/linter-htmlcs.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "A plugin for Atom Linter providing an interface to htmlcs",
-  "keywords": ["html", "lint", "htmlcs"],
+  "keywords": [
+    "html",
+    "lint",
+    "htmlcs"
+  ],
   "repository": "https://github.com/geneanet/linter-htmlcs",
   "bugs": {
     "url": "https://github.com/geneanet/linter-htmlcs/issues"
