@@ -18,3 +18,5 @@ $ apm install linter-htmlcs
 You can configure this plugin in Atom's Settings :
 
 * You can change enabled scopes.
+* You can add a default config file.
+* You can set the warning severity level.
