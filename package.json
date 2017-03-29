@@ -33,6 +33,11 @@
       "description": "A default config file if no config file found in the project.",
       "type": "string",
       "default": ""
+    },
+    "warningSeverity": {
+      "description": "To define the min level warning to display the warning. 1: Error, 2: Error + Warning, 3: Error + Warning + Info.",
+      "type": "integer",
+      "default": "3"
     }
   },
   "dependencies": {
