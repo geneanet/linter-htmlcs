@@ -28,6 +28,11 @@
       "items": {
         "type": "string"
       }
+    },
+    "defaultConfigFile": {
+      "description": "A default config file if no config file found in the project.",
+      "type": "string",
+      "default": ""
     }
   },
   "dependencies": {
