@@ -17,6 +17,19 @@
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
   },
+  "configSchema": {
+    "enabledScopes": {
+      "description": "List of scopes to run HTMLCS on a file. Use the command 'Editor: Log Cursor Scope' to list current scope for a file.",
+      "type": "array",
+      "default": [
+        "text.html.angular",
+        "text.html.basic"
+      ],
+      "items": {
+        "type": "string"
+      }
+    }
+  },
   "dependencies": {
     "atom-linter": "^8.0.0",
     "atom-package-deps": "^4.0.1",

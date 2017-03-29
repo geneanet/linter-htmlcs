@@ -14,4 +14,7 @@ $ apm install linter-htmlcs
 ```
 
 ## Settings
-*Coming soon*
+
+You can configure this plugin in Atom's Settings :
+
+* You can change enabled scopes.
